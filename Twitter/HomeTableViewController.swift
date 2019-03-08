@@ -28,6 +28,7 @@ class HomeTableViewController: UITableViewController {
         
         
         
+        
     }
     
     
@@ -103,11 +104,19 @@ class HomeTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tweetCell", for: indexPath) as! TweetCell
         let user = tweetArray[indexPath.row]["user"] as! NSDictionary
         
+        //let image = UIImage(named: "ImageView")
+        cell.profileImageView.layer.borderWidth = 1
+        cell.profileImageView.layer.masksToBounds = false
+        cell.profileImageView.layer.borderColor = UIColor.white.cgColor
+        cell.profileImageView.layer.cornerRadius = cell.profileImageView.frame.height / 2
+        cell.profileImageView.clipsToBounds = true
+        
+        
         
         cell.userNameLabel.text = user["name"] as? String
         cell.tweetContentLabel.text = tweetArray[indexPath.row]["text"] as? String
         
-        let imageURL = URL(string: (user["profile_image_url_https"] as? String)!)
+        let imageURL = URL(string: (user["profile_image_url"] as? String)!)
         let data = try? Data(contentsOf: imageURL!)
         
         if let imageData = data {
