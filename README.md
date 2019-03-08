@@ -1,18 +1,18 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *Twitter Clone*
 
-**Name of your app** is a basic twitter app to read your tweets.
+**Twitter Clone** is a basic twitter app to read your tweets.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
-- [ ] User can log in. (1pt)
-- [ ] User can log out. (1pt)
-- [ ] User stays logged in across restarts. (1pt)
-- [ ] User can view tweets with the user profile picture, username, and tweet text. (6pts)
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can log in. (1pt)
+- [x] User can log out. (1pt)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
 
 The following **bonus** features are implemented:
 
@@ -23,5 +23,10 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+User sees an app icon in home screen and styled launch screen, user can log in, user can view tweets with the user profile picture, username and tweet text.
+<img src='https://media.giphy.com/media/ZvahKI2LX6cYZcKkjo/giphy.gif' title='Video Walkthrough 1' width='' alt='Video Walkthrough 1' />
+
+User stays logged in across restarts, user can log out.
+<img src='https://media.giphy.com/media/1xlZNYUvWrt1guUBsX/giphy.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
+
 
